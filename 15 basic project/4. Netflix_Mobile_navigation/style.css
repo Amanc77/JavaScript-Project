@@ -104,3 +104,18 @@ body{
     list-style-type: none;
     padding-left: 20px;
 }
+p{
+    color: rgb(255, 115, 0);
+}
+
+#mode-toggle{
+    background-color: transparent;
+    border: none;
+    scale: 1;
+    transform: translate(680px,-250px);
+   
+}
+
+.container{
+    scale: 1;
+}
