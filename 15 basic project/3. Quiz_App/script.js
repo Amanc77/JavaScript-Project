@@ -28,7 +28,7 @@ const quizData = [
         a: "Yes",
         b: "May be latter",
         c: "Next time",
-        d: "Abhi karane ja rahe hai. 😂	",
+        d: "no	",
         correct: "d"
     },
 ];  //this is object of array
