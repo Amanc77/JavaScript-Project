@@ -5,13 +5,7 @@ setInterval(function(){
     let date = new Date()
     time.innerHTML = date.toLocaleTimeString(undefined, { hour12: true });
 
-},1000)//by defalt this is one second
-
-
-
-
-
-//console.log(Math.random())
+},1000)
 
 const randomColor = function(){
     const hex = '0123456789ABCDEF'

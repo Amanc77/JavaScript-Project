@@ -11,7 +11,7 @@ close_btn.addEventListener('click', () => {
 })
 
 
-// for dark theme and lite theme
+
 const container = document.querySelector('.container');
 const modeToggleBtn = document.getElementById('mode-toggle');
 const iconLight = document.getElementById('icon-light');
