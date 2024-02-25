@@ -29,6 +29,8 @@ function setTime() {
     const minutes = time.getMinutes()
     const seconds = time.getSeconds()
     const ampm = hours >= 12 ? 'PM' : 'AM'
+    const anpm = hours >=16
+    const abcd = 'efgh'
 
     hourEl.style.transform = `translate(-50%, -100%) rotate(${scale(hoursForClock, 0, 12, 0, 360)}deg)`
     minuteEl.style.transform = `translate(-50%, -100%) rotate(${scale(minutes, 0, 60, 0, 360)}deg)`
@@ -46,3 +48,13 @@ const scale = (num, in_min, in_max, out_min, out_max) => {
 setTime()
 
 setInterval(setTime, 1000)
+
+//this is not use in this code 
+
+if ( 5 > 8 ){
+    console.log(` i am aman kumar chaurasiya `)
+}
+
+else{
+    console.log(`you are not eligible for next exam so focouse on only your coding skill `)
+}
