@@ -38,31 +38,32 @@ nav h1 {
     background-color: black;
 }
 .localtime{
-    color: red;
-    position:relative;
-    transform: translate(245px,-430px)
+    transform: translate(10px,-400px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
 }
+
 #clock{
-    max-width: 100px;
-    padding-top: 10px;
-    padding-left: 10px;
+   
+   
    scale: 2;
-    color: aqua
+    color: rgb(241, 47, 3)
 
 }
 #banner{
-    
+    margin-bottom: 15px;
     scale: 1.5;
-    margin-left: 90px;
-    margin-bottom: 5px
+    color: rgb(52, 211, 12);
+   
     
 }
-
 .digital{
     margin-top: 20px;
     transform: translateY(10px);
     
-    color: rgb(6, 49, 168)
+    color: rgb(6, 168, 125)
     
     
 }
@@ -90,15 +91,17 @@ html.dark {
 }
 
 .toggle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     cursor: pointer;
     
     color: var(--secondary-color);
     border: 0;
     border-radius: 4px;
-    padding: 8px 12px;
+   
     position: ;
-    top: 100px;
-    transform: translate(190px);
+   
 }
 
 .toggle:focus {
