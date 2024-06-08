@@ -17,19 +17,19 @@ const quizData = [
     },
     {
         question: "What does HTML stand for ?",
-        a: "Hyper Text Markup Language",
+        a: "Happy Tongue Markup Language",
         b: "Hairy Tongue Markup Language",
-        c: "Happy Tongue Markup Language",
+        c: "Hyper Text Markup Language" ,
         d: "None of the above",
-        correct: "a",
+        correct: "c",
     },
     {
-        question: "Did you like this post? 😁    ",
+        question: " Will You Hire me...??  ",
         a: "Yes",
         b: "May be latter",
         c: "Next time",
         d: "no	",
-        correct: "d"
+        correct: "a"
     },
 ];  //this is object of array
 
